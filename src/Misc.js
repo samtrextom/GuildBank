@@ -1,4 +1,5 @@
 import React from 'react'
+import BankGrid from "./Armor";
 
 class Misc extends React.Component{
 
@@ -6,7 +7,8 @@ class Misc extends React.Component{
 
         return(
             <div>
-
+                <h1>Miscellaneous</h1>
+                <BankGrid/>
             </div>
         )
     }

@@ -1,4 +1,6 @@
 import React from 'react'
+import BankTileRows from "./BankTileRows";
+import Gold from "./Gold";
 
 class Home extends React.Component{
 
@@ -6,7 +8,8 @@ class Home extends React.Component{
 
         return(
             <div>
-
+                <BankTileRows/>
+                <Gold/>
             </div>
         )
     }

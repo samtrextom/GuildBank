@@ -1,0 +1,53 @@
+const bankTileData = [
+    {
+        id:1,
+        tileName:"Armor/Weapons",
+        tileUrl:"Armor",
+        uniqueTilePhoto1:"/Weapons/INV_Sword_39.png",
+        uniqueTilePhoto2:"/Weapons/INV_Spear_04.png",
+        uniqueTilePhoto3:"/Armor/INV_Shield_20.png",
+        uniqueTilePhoto4:"/Armor/INV_Shoulder_30.png",
+        uniqueTilePhoto5:"/Armor/INV_Helmet_25.png",
+        uniqueTilePhoto6:"/Weapons/INV_Weapon_Bow_08.png",
+        bagTilePhoto:"/ModifiedImages/BankTileBag.png"
+    },
+    {
+        id:2,
+        tileName:"Potions/Consumables",
+        tileUrl:"Potions",
+        uniqueTilePhoto1:"/Trade/INV_Potion_22.png",
+        uniqueTilePhoto2:"/Trade/INV_Scroll_02.png",
+        uniqueTilePhoto3:"/Trade/INV_Misc_Bandage_02.png",
+        uniqueTilePhoto4:"/Trade/INV_Misc_Food_64.png",
+        uniqueTilePhoto5:"/Trade/INV_Misc_Food_68.png",
+        uniqueTilePhoto6:"/Trade/INV_Potion_08.png",
+        bagTilePhoto:"/ModifiedImages/BankTileBag.png"
+    },
+    {
+        id:3,
+        tileName:"Materials",
+        tileUrl:"Mats",
+        uniqueTilePhoto1:"/Trade/INV_Misc_Herb_14.png",
+        uniqueTilePhoto2:"/Trade/INV_Misc_LeatherScrap_07.png",
+        uniqueTilePhoto3:"/Trade/INV_Misc_Gem_Sapphire_01.png",
+        uniqueTilePhoto4:"/Trade/INV_Misc_Fish_10.png",
+        uniqueTilePhoto5:"/Trade/INV_Fabric_FelRag.png",
+        uniqueTilePhoto6:"/Trade/INV_Enchant_ShardGlimmeringLarge.png",
+        bagTilePhoto:"/ModifiedImages/BankTileBag.png"
+    },
+    {
+        id:4,
+        tileName:"Miscellaneous",
+        tileUrl:"Misc",
+        uniqueTilePhoto1:"/Items/INV_Box_PetCarrier_01.png",
+        uniqueTilePhoto2:"/Items/INV_Battery_01.png",
+        uniqueTilePhoto3:"/Items/INV_Misc_Bag_09_Green.png",
+        uniqueTilePhoto4:"/Items/INV_Misc_Bomb_04.png",
+        uniqueTilePhoto5:"/Items/INV_Misc_Rune_08.png",
+        uniqueTilePhoto6:"/Items/INV_Misc_Slime_01.png",
+        bagTilePhoto:"/ModifiedImages/BankTileBag.png"
+    }
+
+]
+
+export default bankTileData

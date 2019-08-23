@@ -1,4 +1,5 @@
 import React from 'react'
+import BankGrid from "./BankGrid";
 
 class Armor extends React.Component{
 
@@ -6,7 +7,8 @@ class Armor extends React.Component{
 
         return(
             <div>
-
+                <h1>Weapons and Armor</h1>
+                <BankGrid/>
             </div>
         )
     }

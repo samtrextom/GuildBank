@@ -169,8 +169,8 @@ nav-tab {
 
 /*//////////INDIVIDUAL TILE STYLING//////*/
 .event-tile{
-  width: 350px;
-  height: 375px;
+  width: 250px;
+  height: 280px;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -182,7 +182,7 @@ nav-tab {
 }
 
 .event-tile .mask{
-  width: 350px;
+  width: 450px;
   height: 535px;
   transform: translate(-400px, -400px) rotate(45deg);
   background-color: rgba(20.4,22.7,25.1, 0.8);
@@ -217,7 +217,7 @@ nav-tab {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background: transparent;
   margin: 20px 40px 0px 40px;
-  transform: translate(180px, -200px);
+  transform: translate(160px, -200px);
   transition: all 0.2s ease-in-out;
 }
 .event-tile p {
@@ -265,15 +265,15 @@ nav-tab {
 }
 
 .event-tile:hover h2 {
-  transform: translate(0px,20px);
+  transform: translate(-45px,0px);
   transition-delay: 0.3s;
 }
 .event-tile:hover p {
-  transform: translate(0px,45px);
+  transform: translate(15px,20px);
   transition-delay: 0.3s;
 }
 .event-tile:hover a.info {
-  transform: translate(0px,140px);
+  transform: translate(-45px,60px);
   transition-delay: 0.3s;
   box-shadow: 0 0 5px #000
 }
@@ -282,20 +282,12 @@ nav-tab {
 /*/////////////MENU PAGE STYLINGS///*/
 /*//////////////////////////////////*/
 
-.menu-page-wrapper h2{
-  padding-top: 3em;
-  padding-bottom: 2em;
+.bank-grid{
+  align-content: center;
 }
 
-/*////////MENU ITEM STYLE////////////*/
-
-.menu-item-name{
-  float:left
+.bank-grid-table{
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.menu-item-price{
-  float:right
-}
-
-
 
