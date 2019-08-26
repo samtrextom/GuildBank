@@ -8,6 +8,7 @@ import Potions from './Potions'
 import Mats from './Mats'
 import Misc from './Misc'
 import './App.css';
+import ThunderFury from "./ThunderFury";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path = '/Potions' exact component = {Potions}/>
             <Route path = '/Mats' exact component = {Mats}/>
             <Route path = '/Misc' exact component = {Misc}/>
+            <Route path = '/ThunderFury' exact component = {ThunderFury}/>
           </Switch>
           <Footer/>
         </div>

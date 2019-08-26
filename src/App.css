@@ -3,8 +3,22 @@
   background-image: linear-gradient( #ffffff , #a3fff4);
 }
 
-.pageIntro{
-  margin-top: 2em;
+.gold{
+  font-size: 2em;
+}
+
+.form-input{
+  width: 350px;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 5px;
+}
+
+.curve-image{
+  border-radius: 5px;
 }
 
 .footerPhoneNumber{
@@ -19,15 +33,6 @@
 
 .footerMain{
   padding-top: 2em;
-}
-
-.pageIntro h3{
-  font-family: Lora;
-  font-size: 6em;
-}
-
-.pageIntro p{
-  font-family: Alegreya ;
 }
 
 .footBot{
@@ -58,26 +63,6 @@ footer h5{
 /*/////////////////////////////////////*/
 /*/////////HEADER STYLING//////////////*/
 /*/////////////////////////////////////*/
-
-header{
-  margin-bottom: 5em;
-}
-
-/*/////////SLIDER STYLES////////////////*/
-
-.slide{
-  height: 450px;
-}
-
-/*/////////CAROUSEL STYLING////////////*/
-
-.image-slide{
-  height: 400px;
-}
-
-.Arrow{
-  width: 50%;
-}
 
 /*/////////NAV STYLING/////////////////*/
 
@@ -131,29 +116,6 @@ nav-tab {
   background-color: white;
   color: #343a40;
   box-shadow: inset 0 0 5px #000;
-}
-
-.dropdown:hover{
-  background-color: white;
-  color: #343a40;
-  box-shadow: inset 0 0 5px #000;
-}
-
-.dropdown-menu{
-  width: 100%;
-  background-color: black;
-  border-radius: 5px;
-}
-
-.dropdown-item:hover a{
-  background-color: white;
-  color: #343a40;
-  box-shadow: inset 0 0 5px #000;
-}
-
-.dropdown-item{
-  color:#ffffff;
-  border-radius: 5px;
 }
 
 /*///////////////////////////////////////*/
@@ -291,3 +253,10 @@ nav-tab {
   margin-right: auto;
 }
 
+/*///////////////////////////////////*/
+/*/////////ITEM RARITY///////////////*/
+/*///////////////////////////////////*/
+
+.legendary{
+  color:orange;
+}

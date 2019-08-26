@@ -22,7 +22,7 @@ class BankGrid extends React.Component{
             <div className='container bank-grid'>
                 <table className='bank-grid-table'>
                     <tr>
-                        <td style={styles}><a href={'http://classic.wowhead.com/item=19019/thunderfury-blessed-blade-of-the-windseeker'}><img src={'/Weapons/INV_Sword_39.png'}/> </a></td><td style={styles}></td><td style={styles}></td>
+                        <td style={styles}><Link to={'ThunderFury'}><img className={'curve-image'} src={'/Weapons/INV_Sword_39.png'}/></Link></td><td style={styles}></td><td style={styles}></td>
                         <td style={styles}></td><td style={styles}></td><td style={styles}></td>
                     </tr>
                     <tr>

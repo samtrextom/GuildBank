@@ -1,6 +1,8 @@
 import React from 'react'
 import BankTileRows from "./BankTileRows";
 import Gold from "./Gold";
+import Deposit from "./Deposit";
+import Withdraw from "./Withdraw";
 
 class Home extends React.Component{
 
@@ -10,6 +12,8 @@ class Home extends React.Component{
             <div>
                 <BankTileRows/>
                 <Gold/>
+                <Deposit/>
+                <Withdraw/>
             </div>
         )
     }

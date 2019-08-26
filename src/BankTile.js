@@ -6,9 +6,9 @@ class BankTile extends React.Component{
     render(){
 
         return(
-            <div className={"event-tile"}>
+            <div className={"event-tile curve-image"}>
                 <div className={"tile-photo"}>
-                    <img src = {this.props.bankTile.bagTilePhoto}/>
+                    <img className={'curve-image'} src = {this.props.bankTile.bagTilePhoto}/>
                     <h3 className={"tile-title"}>{this.props.bankTile.tileName}</h3>
                 </div>
                 <div className="mask"></div>
@@ -18,24 +18,24 @@ class BankTile extends React.Component{
                         <table>
                             <tr>
                                 <td>
-                                    <img src={this.props.bankTile.uniqueTilePhoto1}/>
+                                    <img className={'curve-image'} src={this.props.bankTile.uniqueTilePhoto1}/>
                                 </td>
                                 <td>
-                                    <img src={this.props.bankTile.uniqueTilePhoto2}/>
+                                    <img className={'curve-image'} src={this.props.bankTile.uniqueTilePhoto2}/>
                                 </td>
                                 <td>
-                                    <img src={this.props.bankTile.uniqueTilePhoto5}/>
+                                    <img className={'curve-image'} src={this.props.bankTile.uniqueTilePhoto5}/>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <img src={this.props.bankTile.uniqueTilePhoto3}/>
+                                    <img className={'curve-image'} src={this.props.bankTile.uniqueTilePhoto3}/>
                                 </td>
                                 <td>
-                                    <img src={this.props.bankTile.uniqueTilePhoto4}/>
+                                    <img className={'curve-image'} src={this.props.bankTile.uniqueTilePhoto4}/>
                                 </td>
                                 <td>
-                                    <img src={this.props.bankTile.uniqueTilePhoto6}/>
+                                    <img className={'curve-image'} src={this.props.bankTile.uniqueTilePhoto6}/>
                                 </td>
                             </tr>
                         </table>
